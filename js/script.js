@@ -14,3 +14,4 @@ function cadastrarNewsLetter(){
     console.log( email)
 
 }
+const carousel = new bootstrap.Carousel('#myCarousel')
