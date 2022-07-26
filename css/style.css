@@ -50,9 +50,9 @@ background-color: #00142d;
 
 .frase {
    
-    margin-top: 3rem #0B47BA;
+    
     background-color: #0B47BA;
-    height: 7rem;
+    height: 9rem;
 
     
 }
@@ -80,6 +80,47 @@ background-color: #00142d;
     background-size: cover;
     
 }
+.produtos-ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.preco a{
+ display: flex;
+ justify-content: center;
+ text-decoration: none;
+ color: #fff;
+ font-size: 1.29rem;
+ 
+}
+.preco button {
+    background-color: rgb(167, 4, 4);
+}
+
+.produto{
+    width: 20rem;
+    height: 22.5em;
+    background: linear-gradient(100deg, rgba(83, 83, 83, 0.5) 0%, #000000 100%);
+    color: #fff;
+    margin-bottom: 3rem;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0),0px 0px 30px rgb(0, 0, 0);
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.produto img {
+    width: 20rem;
+}
+
 
 .produtos {
     display: flex;

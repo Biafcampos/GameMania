@@ -29,6 +29,13 @@
     <main>
     <section class="banner ">
         
+        <div class="logon">
+            <form action="">
+                <input type="email" name="email" id="cadastra-email" placeholder="E-mail" maxlength="30" required>
+                <input type="password" name="pws" id="passw" placeholder="Senha" maxlength="50" required>
+                <button >Entrar</button>
+            </form>
+          </div>
     
 </section>
 <section class="frase">
@@ -44,11 +51,56 @@
 
             <p class="noticia">Faça parte do nosso grupo e fique por dentro das mais novas noticias</p>
 
-            <form action="">
-                <input type="email" name="email" id="cadastra-email" placeholder="E-mail" maxlength="30" required>
-                <button onclick="cadastrarNewsLetter()">Cadastrar</button>
-            </form>
-          </div>
+        </div>
+          <style>
+            .logon form {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding-top: 16rem; 
+    flex-direction: column;
+            }
+            .logon input[type="email"] {
+    height: 5rem;
+    width: 40rem;  
+    border-radius: 0.2rem; 
+    margin-bottom: 1.25rem;
+    border-style: none; 
+            }
+            .logon input[type="password"] {
+    height: 5rem;
+    width: 40rem;  
+    border-radius: 0.2rem; 
+    border-style: none; 
+            }
+            .logon input[type="email"]::placeholder {
+    color: #B8B3B3;
+    font-size: 1.29rem;
+    font-weight: bold; 
+            }
+            .logon input[type="password"]::placeholder {
+    color: #B8B3B3;
+    font-size: 1.29rem;
+    font-weight: bold; 
+}
+            .logon  button{
+    margin-top: 1rem;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    background-color: #0B47BA;
+    border-radius: 0.2rem;
+    font-family: sans-serif;
+    border: none;
+
+  
+    
+    
+    
+}
+          </style>
 
         <div class="redes">
            <a href="https://www.instagram.com/" target="_blank"> <img class="red" src="/imgs/instagram.svg" alt="Logo do instagram"></a>
@@ -59,7 +111,7 @@
         </div>
 
         <div class="info">
-            <p class="autor">Autor: Bianca Ferreira </p>
+            <p class="autor">De uma olhada em nossas Redes sociais</p>
             <p>Empresa: GameMania</p>
         </div>
         <div class="copy"> <p>Copyright © 2022. All rights reserved</p></div>
