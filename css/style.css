@@ -74,7 +74,7 @@ background-color: #00142d;
 
 }
 .ofertas {
-    background-image: url(/imgs/controles.svg);
+    background-image: url(../imgs/controles.svg);
     height: 70rem;
     background-repeat: no-repeat;
     background-size: cover;
