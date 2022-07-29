@@ -40,7 +40,7 @@ background-color: #00142d;
 
 .banner {
     height: 41rem;
-    background-image: url(/imgs/nitendo.svg);
+    background-image: url(../imgs/nitendo.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
